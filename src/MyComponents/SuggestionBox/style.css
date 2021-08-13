@@ -1,0 +1,34 @@
+.container_suggestion {
+  display: block;
+  float: right;
+  text-align: center;
+  color: white;
+  padding: 8px;
+  border: #f7d101 2px solid;
+  border-radius: 4vh;
+  height: 60vh;
+  width: 20%;
+
+  background-image: url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600");
+  background-size: cover;
+}
+.center textarea {
+  min-height: 40vh;
+}
+#bbox {
+  color: grey;
+  border: transparent;
+  padding: 4px;
+}
+
+.btn_suggestionbox {
+    width: 14ch;
+    border-radius: 5px;
+}
+.btn_suggestionbox:hover {
+    width: 14ch;
+    background: #f7d101;
+    text-decoration: #3e64ff;
+    color: #3e64ff;
+    border-radius: 5px;
+}

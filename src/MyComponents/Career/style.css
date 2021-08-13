@@ -1,0 +1,113 @@
+.hero-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image:url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600") ;
+
+  background-size: cover;
+
+}
+.hero-wrap .text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.slider-text .subheading {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color:yellow;
+  letter-spacing: 4px;
+}
+
+.slider-text h1 {color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+@media (max-width: 767.98px) {
+  .slider-text h1 {color: white;
+    font-size: 40px;
+  }
+}
+
+.slider-text h2 {color: white;
+  font-weight: 800;
+}
+.slider-text h2 span {
+  color: #3e64ff;
+  text-decoration: underline;
+}
+
+.slider-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+.slider-text p strong {
+  font-weight: 700;
+}
+.slider-text p strong a {
+  color:white;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width:100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.Homepageimg {
+  float: left;
+  position: absolute;
+  top: 4%;
+  left: -3%;
+}
+.Homepageimg2 {
+  float: right;
+  position: absolute;
+  top: 4%;
+  left: 66%;
+}

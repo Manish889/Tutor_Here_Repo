@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.circle {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BlankMap-World_gray.svg/1405px-BlankMap-World_gray.svg.png") ;
+  background-size: cover;
+
+  /*   width: 100%;
+  
+  height: auto;
+  display: flex !important;
+  justify-content: center;
+  */
+}
+.learnwithus {
+  width: 100%;
+  font-size: 300%;
+  height: 40px;
+  color: #1b2f4c;
+  display: flex !important;
+  justify-content: center;
+}
+.improvewithus {
+  width: 100%;
+  font-size: 350%;
+  color: #1b2f4c;
+  margin-top: 100px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.box-main {
+  display: flex;
+  padding: 2% 10%;
+  justify-content: space-evenly;
+  flex-wrap: wrap !important;
+}
+
+.box {
+  text-align: center;
+  height: 33vh;
+  width: 33vh;
+  box-sizing: border-box;
+  margin: 10% 0;
+  box-shadow: 0px 18px 50px 0px rgb(0 0 0 / 30%);
+  /* margin: 80px 20px 40px 80px; */
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.count {
+  font-size: 300%;
+  color: #3e64ff;
+  margin-top: 26%;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+.text {
+  color: #1b2f4c;
+  margin-top: 0;
+  font-size: 85%;
+}
+
+.box:hover {
+  box-shadow: 0px 0px;
+}
+.btn_navlink_circle {
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px 20px;
+  font-size: 100%;
+  display: block;
+  border:none;
+  text-decoration: none;
+  border-style: none;
+  color: bisque;
+  background: #f4b44b;
+  /* border-radius: 50%; */
+  box-shadow: 0px 18px 50px 0px rgb(0 0 0 / 30%);
+  transition: transform 500ms;
+}
+
+
+.btn_navlink_circle:hover {
+  /* margin-top: 0;
+  margin-bottom: 10px; */
+  background-color: #4bd863;
+  transform: translateY(-20%);
+}
+
+
+@media (max-width: 767px) {
+  .circle {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .learnwithus {
+    width: 100%;
+    font-size: 5ch;
+    height: 40px;
+    color: #1b2f4c;
+    display: flex !important;
+    justify-content: center;
+  }
+  .improvewithus {
+    width: 100%;
+    font-size: 5ch;
+    color: #1b2f4c;
+    margin-top: 3ch;
+    display: flex !important;
+    justify-content: center;
+  }
+  .box {
+    text-align: center;
+    height: 23vh;
+    width: 23vh;
+    box-sizing: border-box;
+    margin: 5% 0;
+    box-shadow: 0px 18px 50px 0px rgb(0 0 0 / 30%);
+    /* margin: 80px 20px 40px 80px; */
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .count {
+    font-size: 3ch;
+    color: #3e64ff;
+    margin-top: 26%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  .text {
+    color: #1b2f4c;
+    margin-top: 0;
+    font-size: 85%;
+  }
+}
+@media (max-width: 574px) {
+  .circle {
+    width: 100%;
+  }
+}

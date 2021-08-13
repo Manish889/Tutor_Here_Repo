@@ -1,0 +1,18 @@
+body {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  
+}
+.card1 {
+  text-align: center;
+}
+.aboutuslink {
+  border: 2px solid cornflowerblue;
+  border-radius: 4%;
+}
+
+.video {
+    margin:0px auto ;
+  padding: 5vh;
+}

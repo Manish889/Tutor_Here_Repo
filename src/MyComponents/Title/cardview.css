@@ -16,3 +16,29 @@ body {
     margin:0px auto ;
   padding: 5vh;
 }
+@media only screen   
+and (min-device-width : 360px)   
+ 
+{ 
+  
+  .aboutus{
+    width: 100%;
+  }
+  
+  .video { border-radius:6% ;
+    height: 300px;
+    width: 100%;
+      margin:0px auto ;
+    padding: 5vh;
+  }
+} 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  .video { border-radius:6% ;
+    height: 600px;
+    width: 100%;
+      margin:0px auto ;
+    padding: 5vh;
+  }
+}

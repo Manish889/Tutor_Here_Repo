@@ -5,25 +5,21 @@ class Header extends Component {
     render() {
         return (
             <>
-                <nav>
-                    <input type="checkbox" id="check"/>
-                        <label for="check" class="checkbtn">
-                            <i class="fas fa-bars"></i>
-                        </label>
-                        <label class="logo">Tutor Here</label>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Learners</a></li>
-                            <li><a href="#">CircleSpace</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">.com.au</a></li>
-                        </ul>
-                </nav>
+                <div className="mainRow">
+                    <div className="logoImage" />
+                    <ul className="listlinks">
+                        <li className="linknames"> Home</li>
+                        <li className="linknames"> Learners</li>
+                        <li className="linknames"> CircleSpace</li>
+                        <li className="linknames"> Blogs</li>
+                        <li className="linknames"> About Us</li>
+                        <li className="linknames"> Careers</li>
+                        <li className="linknames"> .com.au</li>
+                    </ul>
+                </div>
             </>
-                )
+        )
     }
 }
-                export default Header
+export default Header
 

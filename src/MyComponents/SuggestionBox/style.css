@@ -32,3 +32,41 @@
     color: #3e64ff;
     border-radius: 5px;
 }
+@media only screen   
+and (min-device-width : 360px)   
+ 
+{ 
+  
+  .container_suggestion {
+    display: block;
+    float: right;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border: #f7d101 2px solid;
+    border-radius: 4vh;
+    height: 60vh;
+    width: 100%;
+  
+    background-image: url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600");
+    background-size: cover;
+  }
+} 
+@media (min-width: 1000px) and (max-width: 1380px) {
+  .container_suggestion {
+    display: block;
+    float: right;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border: #f7d101 2px solid;
+    border-radius: 4vh;
+    height: 60vh;
+    width: 20%;
+  
+    background-image: url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600");
+    background-size: cover;
+  }
+  
+
+}

@@ -13,7 +13,7 @@ export default function Index() {
           </h3>
         </div>
         <a className="aboutuslink" href="#">
-          learn more
+          Learn More
         </a>
       </section>
       <br />

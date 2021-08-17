@@ -27,20 +27,29 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">about</NavLink>
+              <NavLink to="/">Learners</NavLink>
             </li>
             <li>
-              <NavLink to="/service">services</NavLink>
+              <NavLink to="/">CircleSpace</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <NavLink to="/">Blogs</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">About Us</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">Careers</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">.com.au</NavLink>
             </li>
           </ul>
         </div>
 
         {/* 3rd social media links */}
         <div className="social-media">
-          {/* <ul className="social-media-desktop">
+          <ul className="social-media-desktop">
             <li>
               <a
                 href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
@@ -62,7 +71,7 @@ const Navbar = () => {
                 <FaYoutubeSquare className="youtube" />
               </a>
             </li>
-          </ul> */}
+          </ul>
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">

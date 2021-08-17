@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './../../MyComponents/Header/Index';
+import Header from './../../MyComponents/Header/Navbar';
 import Career from './../../MyComponents/Career/Index';
 import JobTable from './../../MyComponents/JobTable/Index';
 import SuggestionBox from './../../MyComponents/SuggestionBox/Index';

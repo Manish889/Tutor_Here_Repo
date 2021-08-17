@@ -59,6 +59,7 @@ and (min-device-width : 360px)
     text-align: center;
     color: white;
     padding: 8px;
+    margin:20px;
     border: #f7d101 2px solid;
     border-radius: 4vh;
     height: 60vh;

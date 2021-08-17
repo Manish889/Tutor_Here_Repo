@@ -1,4 +1,12 @@
 .latest_update {
     display: flex;
+    width:80%;
     justify-content: space-around;
+    flex-direction: column;
+    margin:20px;
+}
+@media(min-width:700px){
+    .latest_update {
+        flex-direction: row;
+    }
 }

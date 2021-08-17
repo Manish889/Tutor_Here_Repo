@@ -19,11 +19,11 @@ export default function Index() {
             <Cardview/>
             <Circles/>
             <JobTable />
+            
             <div className="latest_update">
             <Calendar/>
             <Chatbot/>
             <SuggestionBox/>
-
             </div>
             <Footer/>
         </>

@@ -67,6 +67,7 @@
 .box:hover {
   box-shadow: 0px 0px;
 }
+
 .btn_navlink_circle {
   width: 200px;
   margin: auto;
@@ -142,5 +143,17 @@
 @media (max-width: 574px) {
   .circle {
     width: 100%;
+  }
+  .box {
+    text-align: center;
+    height: 15vh;
+    width: 15vh;
+    box-sizing: border-box;
+    margin: 10% 2%;
+    box-shadow: 0px 18px 50px 0px rgb(0 0 0 / 30%);
+    /* margin: 80px 20px 40px 80px; */
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
   }
 }

@@ -12,10 +12,13 @@ body {
   border-radius: 4%;
 }
 
-.video {
-    margin:0px auto ;
-  padding: 5vh;
+.video { 
+  border-radius:6% ;
+  height: 70%;
+  width: 100%;
+  
 }
+
 @media only screen   
 and (min-device-width : 360px)   
  
@@ -42,3 +45,6 @@ and (min-device-width : 360px)
     padding: 5vh;
   }
 }
+
+
+

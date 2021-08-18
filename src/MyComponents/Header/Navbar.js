@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* 3rd social media links */}
         <div className="social-media">
-          <ul className="social-media-desktop">
+          {/* <ul className="social-media-desktop">
             <li>
               <a
                 href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <FaYoutubeSquare className="youtube" />
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">

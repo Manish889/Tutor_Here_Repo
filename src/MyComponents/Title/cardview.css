@@ -49,7 +49,7 @@ and (min-device-width : 360px)
     padding: 5vh;
   }
 }
-@media  (min-width:780px)  and (max-width:1021px){
+@media  (min-width:780px)  and (max-width:1025px){
   
   
   .video { border-radius:6% ;

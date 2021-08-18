@@ -3,7 +3,7 @@ import "../SuggestionBox/style.css"
 
 export default function Index() {
     return (
-    <div className="container_suggestion">
+    <div className="container_suggestion_box">
         <form id="suggestion_box" action="" method="post">
             <p className="text-center">How Can We Improve! </p>
             <fieldset className="center">

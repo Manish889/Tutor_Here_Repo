@@ -11,7 +11,7 @@ function ReactCalendar() {
       setDate(date);
   };
   return (
-    <div className="calender">
+    <div className="calendar">
       <Calendar
         onChange={onChange}
         value={date}

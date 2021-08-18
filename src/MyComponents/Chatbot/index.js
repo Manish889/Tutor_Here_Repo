@@ -10,13 +10,8 @@ const index = () => {
   };
  
   return (
-    // <!-- CHAT BAR BLOCK -->
-    <div className="chat-bar-collapsible">
-      {/* <button id="chat-button" type="button" className="collapsible">Chat with us!
-                <i id="chat-icon" style="color: #fff;" className="fa fa-fw fa-comments-o"></i>
-            </button> */}
+   
 
-      <div className="content">
         <div className="full-chat-block">
           {/* <!-- Message Container --> */}
           <div className="outer-container">
@@ -55,8 +50,7 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      
   );
 };
 

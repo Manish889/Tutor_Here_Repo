@@ -1,11 +1,14 @@
 .latest_update {
     display: flex;
+    flex: 1;
     width:80%;
+
     justify-content: space-around;
+    align-items: center;
     flex-direction: column;
-    margin:20px;
+    margin: auto;
 }
-@media(min-width:700px){
+@media(min-width:780px){
     .latest_update {
         flex-direction: row;
     }

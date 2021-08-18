@@ -1,19 +1,23 @@
-.container_suggestion {
+.container_suggestion_box {
   display: block;
   float: right;
+  margin: 1em 1em;
   text-align: center;
   color: white;
   padding: 8px;
   border: #f7d101 2px solid;
-  border-radius: 4vh;
-  height: 60vh;
-  width: 20%;
+  /* border-radius: 4vh; */
+  height: 30em;
+  width: 25%;
 
   background-image: url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600");
   background-size: cover;
 }
 .center textarea {
-  min-height: 40vh;
+  height: 22em;
+  width: 80%;
+  resize: unset ;
+  border-radius: 3px;
 }
 #bbox {
   color: grey;
@@ -22,52 +26,55 @@
 }
 
 .btn_suggestionbox {
-    width: 14ch;
+    width: 7em;
     border-radius: 5px;
 }
 .btn_suggestionbox:hover {
-    width: 14ch;
     background: #f7d101;
     text-decoration: #3e64ff;
     color: #3e64ff;
     border-radius: 5px;
 }
-@media only screen   
-and (min-device-width : 360px)   
  
-{ 
-  
-  .container_suggestion {
+@media(max-width: 780px) {
+  .container_suggestion_box {
     display: block;
     float: right;
     text-align: center;
     color: white;
     padding: 8px;
+    /* margin:20px; */
     border: #f7d101 2px solid;
-    border-radius: 4vh;
-    height: 60vh;
-    width: 100%;
+    height: 20em;
+    width: 70%;
   
     background-image: url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600");
     background-size: cover;
   }
-} 
-@media (min-width: 1000px) and (max-width: 1380px) {
-  .container_suggestion {
-    display: block;
-    float: right;
-    text-align: center;
-    color: white;
-    padding: 8px;
-    margin:20px;
-    border: #f7d101 2px solid;
-    border-radius: 4vh;
-    height: 60vh;
-    width: 20%;
-  
-    background-image: url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600");
-    background-size: cover;
+  .center textarea {
+    height: 13em;
+    width: 85%;
   }
   
 
+}
+
+@media(max-width: 574px){ 
+  
+  .container_suggestion_box {
+    display: block;
+    float: right;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    /* margin:20px; */
+    border: #f7d101 2px solid;
+    height: 20em;
+    width: 85%;
+  
+  }
+  .center textarea {
+    height: 13em;
+    width: 85%;
+  }
 }

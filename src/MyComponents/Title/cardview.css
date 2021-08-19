@@ -4,6 +4,9 @@ body {
   justify-content: center; 
   font-family: 'Dosis', sans-serif;
 }
+h3{
+  color: blue;
+}
 .card1 {
   width:100%;
   text-align: center;

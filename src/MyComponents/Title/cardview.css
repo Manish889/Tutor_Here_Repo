@@ -2,7 +2,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center; 
-  
+  font-family: 'Dosis', sans-serif;
 }
 .card1 {
   width:100%;
@@ -10,7 +10,7 @@ body {
 
 }
 .card1 div img {
-  width:100%;
+  width:50%;
 }
 
 .aboutuslink {

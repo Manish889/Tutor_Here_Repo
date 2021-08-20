@@ -7,7 +7,7 @@ const Index = () => {
     return (
         <>
             <Header />
-            <BgImgText toptext='Read Everything' bottomtext="that's what she said"/>
+            <BgImgText toptext='Read Anything' bottomtext="that's what she said"/>
             <Footer />
         </>
     );

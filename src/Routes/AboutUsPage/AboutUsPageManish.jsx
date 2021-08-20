@@ -1,5 +1,5 @@
 import MembersGrid from "../../MyComponents/MembersGrid/MembersGrid";
-import {bgImg} from '../../Data/Data'
+import BgImgText from "../../MyComponents/BgImgText/BgImgText";
 import Header from '../../MyComponents/Header/Navbar';
 import Footer from "../../MyComponents/Footer/Index";
 import "./AboutUs.scss";
@@ -9,7 +9,7 @@ const AboutUsPageManish = () => {
     <>
     <Header />
       <div className="AboutUs">
-        <img className="AboutUs__img" src={bgImg[0].image1} alt="" />
+        <BgImgText toptext='About Us' bottomtext='me and bois' />
       </div>
 
       <div className="AboutUs__text-box">

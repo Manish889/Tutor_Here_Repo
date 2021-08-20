@@ -15,9 +15,6 @@ function App() {
           <Route path='/learners' exact component={LearnersPage}/>
         </Switch>
       </Router>
-      {/* <CareerPage/> */}
-      {/* <AboutUsPageManish /> */}
-      <LearnersPage />
     </>
   );
 }

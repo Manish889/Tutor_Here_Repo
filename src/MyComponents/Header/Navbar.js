@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link>
             <li className="navbar__item"> CircleSpace</li>
           </Link>
-          <Link>
+          <Link to='/blogs'>
             <li className="navbar__item"> Blogs</li>
           </Link>
           <Link to='/aboutus'>

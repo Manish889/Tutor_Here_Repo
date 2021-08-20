@@ -29,7 +29,7 @@ const Footer = () => {
 								<a href="https://www.facebook.com/tutorhere.help/"> <FaFacebookF /></a>
 								<a href="https://twitter.com/tutor_here"><FaTwitter/></a>
 								<a href="https://www.linkedin.com/company/tutorhere/"><FaLinkedinIn/></a>
-								<a href="https://www.linkedin.com/company/tutorhere/"><FaInstagram/></a>
+								<a href="https://www.instagram.com/tutor.here/?hl=en"><FaInstagram/></a>
 							</div>
 						</div>
 					</div>

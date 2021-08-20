@@ -1,19 +1,20 @@
-body {
+.videobox1 {
   position: relative;
   display: flex;
-  justify-content: center; 
-  font-family: 'Dosis', sans-serif;
+  margin: 5em;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Dosis", sans-serif;
 }
-h3{
+h3 {
   color: blue;
 }
 .card1 {
-  width:100%;
+  width: 100%;
   text-align: center;
-
 }
 .card1 div img {
-  width:50%;
+  width: 70%;
 }
 
 .aboutuslink {
@@ -21,46 +22,35 @@ h3{
   border-radius: 4%;
 }
 
-.video { 
-  border-radius:6% ;
-  height: 70%;
-  width: 100%;
-  
+.video1 {
+  display:block;
+  aspect-ratio: 16/9;
+  width: 75%;
+  margin: 5em auto;
+  border-radius: 3em;
+  justify-content: center;
+  align-items: stretch;
 }
 
-@media only screen   
-and (min-device-width : 360px)   
- 
-{ 
-  
- 
-  
-  .video { border-radius:6% ;
-    height: 300px;
-    width: 100%;
-      margin:0px auto ;
-    padding: 5vh;
+@media (max-width: 780px) {
+  .videobox1 {
+    margin: 1em;
   }
-} 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
-  .video { border-radius:6% ;
-    height: 600px;
-    width: 100%;
-      margin:0px auto ;
-    padding: 5vh;
+  .video1 {
+    border-radius: 1.5em;
+    width: 80%;
+    margin: 10% ;
+    padding: 0 ;
   }
 }
-@media  (min-width:780px)  and (max-width:1025px){
-  
-  
-  .video { border-radius:6% ;
-    height: 500px;
+@media (max-width: 564px) {
+  .card1 div img {
     width: 100%;
-      margin:0px auto ;
-    padding: 5vh;
+  }
+  .video1 {
+    border-radius: 1.5em;
+    width: 100%;
+    padding: 0;
+    margin: 10px auto;
   }
 }
-
-

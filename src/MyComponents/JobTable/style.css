@@ -1,19 +1,13 @@
-body{
-
+.cardviewjob{
+    max-width: 100%;
+    margin: 4em auto;
     position: relative;
     display: flex;
     flex-direction: column;
 }
 .card{
     width: 18rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.cardview{
-    padding: 50px;
+    margin: 15px auto;
     
 }
 

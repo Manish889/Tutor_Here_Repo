@@ -1,86 +1,53 @@
 import React, { useState } from "react";
-import "./navbar.css";
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
-
-import { NavLink } from "react-router-dom";
+import "./Navbar.scss";
+import logo from "../../Data/logo1.png";
+import SearchIcon from "@material-ui/icons/Search";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const [showMobile, setShowMobile] = useState(false);
   return (
     <>
-      <nav className="main-nav">
-        {/* 1st logo part  */}
-        <div className="logoImage" />
+      <div className="navbar">
+        <div className="navbar__logo">
+          <img src={logo} alt="" />
+        </div>
 
-        {/* 2nd menu part  */}
-        <div
+        <ul
           className={
-            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }>
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/learners">Learners</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">CircleSpace</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">Blogs</NavLink>
-            </li>
-            <li>
-              <NavLink to="/aboutus">About Us</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">Careers</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">.com.au</NavLink>
-            </li>
-          </ul>
-        </div>
-
-        {/* 3rd social media links */}
-        <div className="social-media">
-          {/* <ul className="social-media-desktop">
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                <FaFacebookSquare className="facebook" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/thapatechnical/"
-                target="_thapa">
-                <FaInstagramSquare className="instagram" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
-                <FaYoutubeSquare className="youtube" />
-              </a>
-            </li>
-          </ul> */}
-
-          {/* hamburget menu start  */}
-          <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
-            </a>
-          </div>
-        </div>
-      </nav>
+            showMobile ? "navbar__list navbar__list_mobile" : "navbar__list"
+          }
+        >
+          <Link to="/">
+            <li className="navbar__item"> Home</li>
+          </Link>
+          <Link to="/learners">
+            <li className="navbar__item"> Learners</li>
+          </Link>
+          <Link>
+            <li className="navbar__item"> CircleSpace</li>
+          </Link>
+          <Link>
+            <li className="navbar__item"> Blogs</li>
+          </Link>
+          <Link to='/aboutus'>
+            <li className="navbar__item"> About us</li>
+          </Link>
+          <Link>
+            <li className="navbar__item"> Careers</li>
+          </Link>
+          <Link>
+            <li className="navbar__item"> .com.au</li>
+          </Link>
+        </ul>
+        <div
+          onClick={() => {
+            setShowMobile(!showMobile);
+          }}
+          className="navbar__hamburger"
+        ></div>
+        <SearchIcon className="navbar__search" style={{ fontSize: "3rem" }} />
+      </div>
     </>
   );
 };

@@ -1,0 +1,151 @@
+
+.navbar {
+    display: grid;
+    grid-template-columns: 15% 1fr 5rem;
+    justify-items: end;
+    padding: 0 2rem;
+    color: var(--primary-color);
+    margin-left: 4rem;
+    @media screen and (max-width: 62.5em) {
+        & {
+            grid-template-columns: 15% 1fr 15%;
+            justify-items: center;
+        }
+    }
+    
+    &__logo img {
+        width: 20rem;
+    }
+    &__logo {
+        @media screen and (max-width: 62.5em) {
+            & {
+                text-align: center;
+                width: 100%;
+                grid-column: 2 / 3;
+            }
+        }
+    }
+    &__item {
+        font-size: 1.8rem;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        &:hover {
+            color: var(--primary-hover);
+            border-bottom: 1px solid var(--primary-color);
+        }
+        @media screen and (max-width: 37.5em) {
+            & {
+                &:hover {
+                    border: 0;
+                    background-color: var(--color-white);
+                }
+            }
+        }
+       
+    }
+
+    &__search {
+        font-size: 3rem;
+        @media screen and (max-width: 62.5em) {
+            & {
+                z-index: 1000;
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+        }
+    }
+
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+        margin: 0;
+        list-style: none;
+        @media screen and (max-width: 62.5em) {
+            & {
+                display: none;
+            }
+        }
+        &_mobile {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 80%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: var(--primary-color);
+            z-index: 999;
+        }
+        
+    }
+
+    &__list_mobile &__item {
+        color: var(--color-white);
+        font-weight: 600;
+        padding: 1.8rem;
+        @media screen and (max-width: 37.5em) {
+            &:hover {
+                color: #207ac9;
+            }
+        }
+    }
+
+    &__hamburger {
+        background-color: #000;
+        height: 3px;
+        width: 30px;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+        position: relative;
+        z-index: 10000;
+        &::before,
+        &::after {
+            content: '';
+            display: inline-block;
+            height: 3px;
+            width: 30px;
+            background-color: #000;
+            transition: all .4s;
+            left: 0;
+        }
+
+        &::before {
+            top: -10px;
+        }
+
+        &::after {
+            top: 10px;
+        }
+
+        &::before, 
+        &::after {
+            position: absolute;
+        }
+        @media screen and (max-width: 62.5em) {
+            & {
+                grid-column: 3 / 4;
+                display: block;
+            }
+        }
+    }
+
+    &__list_mobile + &__hamburger {
+        background-color: transparent;
+    } 
+
+    &__list_mobile + &__hamburger::before {
+        top: 0;
+        transform: rotate(135deg);
+    }
+    &__list_mobile + &__hamburger::after {
+        top: 0;
+        transform: rotate(-135deg);
+    }
+}
+
+    

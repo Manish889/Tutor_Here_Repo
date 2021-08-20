@@ -1,5 +1,4 @@
 import React from 'react'
-import topImg from '../../Data/Learners-Page-Art.jpg';
 import Art from '../../MyComponents/Art/indexart';
 import TheArtist from '../../MyComponents/TheArtist/TheArtist';
 import ResourcesConatiner from '../../MyComponents/LearnersResources/ResourcesContainer';

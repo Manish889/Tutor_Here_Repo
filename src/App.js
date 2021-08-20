@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import CareerPage from './Routes/CareerPage/Index'
 import AboutUsPageManish from './Routes/AboutUsPage/AboutUsPageManish';
 import LearnersPage from './Routes/Learners/LearnersPage';

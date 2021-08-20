@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css"
-import { FaFacebookF,FaTwitter,FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF,FaTwitter,FaLinkedinIn,FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
 	return (
@@ -29,7 +29,7 @@ const Footer = () => {
 								<a href="https://www.facebook.com/tutorhere.help/"> <FaFacebookF /></a>
 								<a href="https://twitter.com/tutor_here"><FaTwitter/></a>
 								<a href="https://www.linkedin.com/company/tutorhere/"><FaLinkedinIn/></a>
-								
+								<a href="https://www.linkedin.com/company/tutorhere/"><FaInstagram/></a>
 							</div>
 						</div>
 					</div>

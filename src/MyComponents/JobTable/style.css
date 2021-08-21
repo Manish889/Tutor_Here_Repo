@@ -1,13 +1,20 @@
 .cardviewjob{
-    max-width: 100%;
     margin: 4em auto;
     position: relative;
     display: flex;
     flex-direction: column;
 }
+.row{
+    max-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .card{
     width: 18rem;
-    margin: 15px auto;
+    border: none;
+    margin: auto;
     
 }
-
+.card-footer{
+    border: none;
+}

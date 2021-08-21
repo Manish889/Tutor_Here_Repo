@@ -1,7 +1,7 @@
 .videobox1 {
   position: relative;
   display: flex;
-  margin: 5em;
+  margin: 3em;
   flex-direction: column;
   justify-content: center;
   font-family: "Dosis", sans-serif;
@@ -14,11 +14,11 @@ h3 {
   text-align: center;
 }
 .card1 div img {
-  width: 70%;
+  width: 50%;
 }
 
 .aboutuslink {
-  border: 2px solid cornflowerblue;
+  text-decoration: underline;
   border-radius: 4%;
 }
 

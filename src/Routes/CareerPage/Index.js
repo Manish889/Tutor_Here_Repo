@@ -14,7 +14,6 @@ export default function Index() {
     return (
         <>
             <Header />
-            
             <Career />
             <Cardview/>
             <Circles/>

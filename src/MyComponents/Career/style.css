@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image:url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600") ;
+  background-image:url("../../Data/bgImg.jpg") ;
 
   background-size: cover;
 
@@ -19,24 +19,28 @@
 }
 .slider-text .subheading {
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 700;
   color:yellow;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
 }
 
 .slider-text h1 {color: white;
-  font-size: 60px;
+  font-size: 9rem;
   font-weight: 800;
 }
 @media (max-width: 767.98px) {
+  .slider-text .subheading {
+    font-size: 2rem;
+  }
   .slider-text h1 {color: white;
-    font-size: 40px;
+    font-size: 6rem;
   }
 }
 
 .slider-text h2 {color: white;
   font-weight: 800;
+  font-size: 2rem;
 }
 .slider-text h2 span {
   color: #3e64ff;

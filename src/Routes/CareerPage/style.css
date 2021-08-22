@@ -1,15 +1,19 @@
 .latest_update {
-    display: flex;
-    flex: 1;
-    width:80%;
+  display: flex;
+  flex: 1;
+  width: 80%;
 
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
 }
-@media(min-width:780px){
-    .latest_update {
-        flex-direction: row;
-    }
+@media (min-width: 1024px) {
+  .latest_update {
+  }
+}
+@media (min-width: 780px) {
+  .latest_update {
+    flex-direction: row;
+  }
 }

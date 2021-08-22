@@ -11,10 +11,11 @@ h3 {
 }
 .card1 {
   width: 100%;
+  padding-bottom: 10px;
   text-align: center;
 }
 .card1 div img {
-  width: 50%;
+  width: 40%;
 }
 
 .aboutuslink {
@@ -45,7 +46,7 @@ h3 {
 }
 @media (max-width: 564px) {
   .card1 div img {
-    width: 100%;
+    width: 70%;
   }
   .video1 {
     border-radius: 1.5em;

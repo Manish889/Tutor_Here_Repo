@@ -1,5 +1,6 @@
 import React from "react";
 import "../Title/cardview.css";
+import aboutusImg from "../../Data/aboutus.png";
 
 export default function Index() {
   return (
@@ -7,7 +8,7 @@ export default function Index() {
       <section className="card1">
         
         <div>
-          <img src="https://media.istockphoto.com/vectors/website-information-concept-vector-id1286378180?b=1&k=6&m=1286378180&s=612x612&w=0&h=X1dHJz25CHwm8VnmyBADIKUpGfLBkKB1Q4RRwUNAugU=" />
+          <img src={aboutusImg} />
           <h3>
             We Are A Community Of Passionate Teachers And Learners
             <br /> Who Work Towards Simplifying Learning.

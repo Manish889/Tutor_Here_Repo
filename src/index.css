@@ -40,7 +40,7 @@ a {
 }
 
 body {
-  font-family: 'Dosis',sans-serif;
+  font-family: 'Dosis' !important;
 }
 
 

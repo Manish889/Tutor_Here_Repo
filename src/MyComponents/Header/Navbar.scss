@@ -1,5 +1,5 @@
 
-.navbar {
+.navbar1 {
     display: grid;
     grid-template-columns: 15% 1fr 5rem;
     justify-items: end;
@@ -25,7 +25,7 @@
             }
         }
     }
-    &__item {
+    &__item1 {
         font-size: 1.8rem;
         cursor: pointer;
         font-family: 'Inter', sans-serif;

@@ -8,10 +8,7 @@
   flex-direction: column;
   margin: auto;
 }
-@media (min-width: 1024px) {
-  .latest_update {
-  }
-}
+
 @media (min-width: 780px) {
   .latest_update {
     flex-direction: row;

@@ -7,7 +7,7 @@ const Footer = () => {
 		<>
 			<footer class="footer">
 				<div class="container">
-					<div class="row">
+					<div class="row-footer">
 						<div class="footer-col">
 							<h4>company</h4>
 							<ul>

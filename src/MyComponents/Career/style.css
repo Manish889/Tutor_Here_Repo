@@ -1,15 +1,13 @@
 .hero-wrap {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image:url("../../Data/bgImg.jpg") ;
-
   background-size: cover;
-
 }
 .hero-wrap .text {
   text-align: center;

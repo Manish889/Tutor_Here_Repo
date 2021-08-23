@@ -13,7 +13,7 @@ const Footer = () => {
 							<ul>
 								<li><a href="#">about us</a></li>
 								<li><a href="#">privacy policy</a></li>
-								<li><a href="#">courses</a></li>
+								<li><a href="#">courses</a></li> 
 							</ul>
 						</div>
 						<div class="footer-col">

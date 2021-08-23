@@ -13,7 +13,7 @@ import './LearnersPage.scss';
         <BgImgText toptext='Learn Everything' bottomtext='and become sharma ji ka beta' />
         <Art />
         <TheArtist />
-        <ResourcesConatiner />
+        <ResourcesConatiner className='learners__resources' />
         <Footer />
         </>
      );

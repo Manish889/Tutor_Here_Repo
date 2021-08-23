@@ -13,7 +13,6 @@
 }
 
 .coo-section {
-    // max-width: 50%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
@@ -63,7 +62,7 @@
 .alice-carousel__wrapper {
     @media screen and (max-width: 768px) {
         & {
-            height: 48rem !important;
+            height: 43rem !important;
             padding-left: 0 !important;
             padding-right: 0 !important;
         }

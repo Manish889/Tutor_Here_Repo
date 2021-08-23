@@ -14,6 +14,10 @@
             align-items: center;
         }
     }
+
+    &__active {
+        border-bottom: 1px solid var(--primary-color);
+    }
     
     &__logo img {
         width: 20rem;

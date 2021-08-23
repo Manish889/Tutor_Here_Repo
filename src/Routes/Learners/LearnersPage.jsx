@@ -5,7 +5,6 @@ import ResourcesConatiner from '../../MyComponents/LearnersResources/ResourcesCo
 import Header from '../../MyComponents/Header/Navbar';
 import Footer from '../../MyComponents/Footer/Index';
 import BgImgText from '../../MyComponents/BgImgText/BgImgText';
-import './LearnersPage.scss';
  const LearnersPage = () => {
      return (
         <>

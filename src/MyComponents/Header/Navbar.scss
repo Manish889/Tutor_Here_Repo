@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 15% 1fr 5rem;
     justify-items: end;
+    align-items: center;
     padding: 0 2rem;
     color: var(--primary-color);
     margin-left: 4rem;
@@ -10,6 +11,7 @@
         & {
             grid-template-columns: 15% 1fr 15%;
             justify-items: center;
+            align-items: center;
         }
     }
     
@@ -29,13 +31,20 @@
         font-size: 1.8rem;
         cursor: pointer;
         font-family: 'Inter', sans-serif;
+        color: #207ac9;
+        transition: all .2s ease-out;
+        
         &:hover {
             color: var(--primary-hover);
             border-bottom: 1px solid var(--primary-color);
         }
         @media screen and (max-width: 37.5em) {
             & {
+                font-weight: 600;
+                color: var(--color-white);
+                padding: 1rem;
                 &:hover {
+                    color: #207ac9;
                     border: 0;
                     background-color: var(--color-white);
                 }
@@ -62,6 +71,9 @@
         column-gap: 2rem;
         margin: 0;
         list-style: none;
+        a {
+            text-decoration: none;
+        }
         @media screen and (max-width: 62.5em) {
             & {
                 display: none;

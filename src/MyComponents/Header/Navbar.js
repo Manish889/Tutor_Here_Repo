@@ -26,6 +26,10 @@ const Navbar = () => {
             <li className="navbar1__item1"> Learners</li>
           </NavLink>
 
+          <NavLink activeClassName="navbar1__active" to="/tutors">
+            <li className="navbar1__item1"> Tutors</li>
+          </NavLink>
+
           <NavLink activeClassName="navbar1__active" to="/circlespace">
             <li className="navbar1__item1"> CircleSpace</li>
           </NavLink>

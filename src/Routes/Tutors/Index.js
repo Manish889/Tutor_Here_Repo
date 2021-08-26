@@ -6,7 +6,7 @@ import BgImgText from '../../MyComponents/BgImgText/BgImgText';
      return (
         <>
         <Header/>
-        <BgImgText toptext='Learn Everything' bottomtext='and become sharma ji ka beta' />
+        <BgImgText toptext='Tutors' bottomtext='A tutors job is to take a bunch of live wires and see that they are well-grounded.' />
         <Footer />
         </>
      );

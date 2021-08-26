@@ -107,6 +107,7 @@ export const resources = [
   {
     id: 'sparknotes',
     img: "images/sparknotes.jpg",
+    link: 'https://www.sparknotes.com/',
     text: `SparkNotes, originally part of a website called The Spark, is a
     company started by Harvard students Sam Yagan, Max Krohn, Chris
     Coyne, and Eli Bolotin in 1999 that originally provided study guides
@@ -115,6 +116,7 @@ export const resources = [
   {
     id: 'desmos',
     img: "images/desmos.jpg",
+    link: 'https://www.desmos.com/',
     text: `Desmos is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript. It was founded by Eli Luberoff, a math and physics double major from Yale University, and was launched as a startup at TechCrunch's Disrupt New York conference in 2011.`,
   },
 ];

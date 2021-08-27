@@ -16,7 +16,7 @@ export const DataCoo = [
     designation: "Chief Operations Officer",
     fullDesignation:
       "I work as a Chief Operations Officer at Tutor Here - the role to which I’ve been recently promoted. I make sure the teams perform smoothly and is managed efficiently. ",
-    email: "spandanakantam@gmail.com",
+    email: "spandana@tutorhere.in",
     image: "images/Spandana.png",
     linkedIn: 'https://www.linkedin.com/in/spandana-kantam-136177199'
   },
@@ -25,7 +25,7 @@ export const DataCoo = [
     designation: "Chief Operations Officer",
     fullDesignation: 
         "I work as a Chief Operations Officer at Tutor Here - the role to which I’ve been recently promoted. I make sure the teams perform smoothly and is managed efficiently. ",
-    email: "nsooryagayathri@gmail.com",
+    email: "soorya@tutorhere.in",
     image: "images/soorya.png",
     linkedIn: 'https://www.linkedin.com/in/sooryagayathri-nair-2889b51b7'
   },
@@ -44,7 +44,7 @@ export const DataTeamManagers = [
     designation: "Hiring and Training Team Manager",
     fullDesignation:
       "Hiring and Training Manager- Taking Probations for new hires, Updation of sheets, Taking Interviews, sending mails to new hires, saving all the documents of the new hires in the drive.",
-    email: "akarshc40@gmail.com",
+    email: "akarshsavant@tutorhere.in",
     image: "images/akrash.png",
     linkedIn: "https://www.linkedin.com/in/akarsh-savant-150056170/",
   },

@@ -1,4 +1,5 @@
 import Homepage from './Routes/Home/Index';
+import Tutors from './Routes/Tutors/Index';
 import AboutUsPageManish from "./Routes/AboutUsPage/AboutUsPageManish";
 import LearnersPage from "./Routes/Learners/LearnersPage";
 import CoursesPage from "./Routes/CoursesPage/CoursesPage";
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={Homepage} />
+          <Route path="/tutors" exact component={Tutors} />
           <Route path="/aboutus" exact component={AboutUsPageManish} />
           <Route path="/learners" exact component={LearnersPage} />
           <Route path="/blogs" exact component={Blogs} />

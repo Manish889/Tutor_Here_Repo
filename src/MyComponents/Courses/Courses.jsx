@@ -25,11 +25,11 @@ const Courses = (props) => {
   const filterHandler = (e) => {
     if (e.target.value === "AtoZ") {
       setCourses(
-        CourseData.slice().sort((a, b) => (a.heading < b.heading ? 1 : -1))
+        CourseData.slice().sort((a, b) => (a.heading > b.heading ? 1 : -1))
       );
     } else if (e.target.value === "ZtoA") {
       setCourses(
-        CourseData.slice().sort((a, b) => (a.heading > b.heading ? 1 : -1))
+        CourseData.slice().sort((a, b) => (a.heading < b.heading ? 1 : -1))
       );
     } 
     // else if (e.target.value === "oldest") {
@@ -38,7 +38,7 @@ const Courses = (props) => {
     //   );
     // }
      else if (e.target.value === "newest") {
-      setCourses(CourseData.slice().reverse())
+      setCourses(CourseData.slice())
     }
   };
 

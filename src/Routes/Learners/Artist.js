@@ -1,105 +1,39 @@
 export const DataArtist = [
-  {
-    name: "Ashima Dhiman",
-    designation: "Researcher",
-    image: "images/ashima.png",
-    email: "ashima@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Sanjana Kolungade",
-    designation: "Researcher",
-    image: "images/sanjana.png",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Tiyasa Hazra",
+   {
+    name: "Dhruv Kaliraman",
     designation: "Tutor",
-    image: "images/tiyasa.png",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
+    image: "images/dhruv.png",
+    linkedIn: 'http://www.linkedin.com/in/dhruv-kaliraman-09429b170'
   },
   {
-    name: "Aleem Abdul Azeez Munshi",
+    name: "Muskan Sachdeva",
     designation: "Tutor",
-    image: "images/aleem.png",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
+    image: "images/mushkan.png",
+    linkedIn: 'https://www.linkedin.com/in/muskan-sachdeva-015779215'
   },
   {
-    name: "Sejal Arora",
+    name: "Anupa Mukhopadhaya",
     designation: "Tutor",
-    image: "images/sejal.png",
-    email: "sejalarora@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
+    image: "images/anupa.png",
+    linkedIn: 'https://www.linkedin.com/in/anupa-mukhopadhaya-b14369215'
+  },
+   {
+    name: "Jini Elizaba Biju",
+    designation: "Tutor",
+    image: "images/Jini.png",
+    linkedIn: 'https://www.linkedin.com/in/jini-biju-bb419a1b9'
   },
   {
-    name: "Chandramukhi P",
+    name: "Harsh Choudhary",
     designation: "Tutor",
-    image: "images/chandramukhi.png",
-    email: "chandramukhi@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
+    image: "images/Harsh Choudhary.png",
+    linkedIn: 'https://www.linkedin.com/in/harshjme'
   },
   {
-    name: "Mallika Gupta",
+    name: "Bhoomika Dhauni",
     designation: "Tutor",
-    image: "images/mallika.png",
-    email: "mallika@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Dr.Sree Pramod Pinapati",
-    designation: "Tutor",
-    image: "images/sreepramod.png",
-    email: "sreepramod@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Yuga Sharma",
-    designation: "Tutor",
-    image: "images/yugasharma.png",
-    email: "yugasharma@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Preeti",
-    designation: "Tutor",
-    image: "images/preeti.png",
-    email: "preeti@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Jahnavi Devaki",
-    designation: "Tutor",
-    image: "images/jahnavidevaki.png",
-    email: "jahnavi@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Syed Afzal Ahmad",
-    designation: "Tutor",
-    image: "images/syedafzal.png",
-    email: "syedafzal@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Saifa Chowdhury",
-    designation: "Tutor",
-    image: "images/saifachowdhary.png",
-    email: "saifachowdhury@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Simmi Bhat",
-    designation: "Tutor",
-    image: "images/simmibhat.png",
-    email: "simmibhat@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
-  },
-  {
-    name: "Sakina Pardawala",
-    designation: "Tutor",
-    image: "images/sakina.png",
-    email: "sakinapardawala@tutorhere.in",
-    linkedIn: "https://www.linkedin.com/in/madiha-jameel-a9ab79175",
+    image: "images/Bhoomika.png",
+    linkedIn: 'https://www.linkedin.com/in/bhoomika-dhauni-240758218/'
   },
 ];
 

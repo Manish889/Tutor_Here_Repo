@@ -6,10 +6,11 @@
     box-sizing: inherit;
 }
 :root {
-  --primary-color: #207ac9;
-  --color-white: #f1f1f1;
-  --color-yellow: #fff338;
-  --primary-hover: #1b52a9;
+  --primary-color: #0866e9;
+  --color-white: #ffffff;
+  --color-yellow: #ffd40c;
+  --color-other-yellow: #ffef00;
+  --primary-hover: #222fe6;
   --text-color: #4B5981;
   --text-light: #B1B8C9;
   --primary-btn-color: #3E64DE;

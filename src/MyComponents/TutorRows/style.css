@@ -1,0 +1,26 @@
+.profile{
+    text-align: center;
+    max-width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.profile__image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+.profile__name{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.profile__designation{
+    padding-bottom: 20px;
+}
+.profile__fulldesignation{
+    margin-bottom: 10px;
+}

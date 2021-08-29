@@ -1,16 +1,31 @@
+import {DataTutors} from "../../Data/Data";
 import React from "react";
 import "./style.css";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const TutorRows = () => {
     return (
         <>
-            <div class="media">
-                <img class="mr-3" src="..." />
-                    <div class="media-body">
-                        <h5 class="mt-0">Media heading</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-            </div>
+            {DataTutors.map((n) => {
+              return (
+                <div class="profile md-3">
+                    <img src={n.image} alt ="" className="profile__image"/>
+                    <div class="profile__name">Name : {n.name} </div>
+                    <div class="profile__designation">Designaion : {n.designation}</div>
+                    <div class="profile__fulldesignation"> {n.fullDesignation}</div> 
+                    <a className="profile__linkedIn" href={n.linkedIn} target="_blank">
+                        <LinkedInIcon
+                            style={{
+                                color: "blue",
+                                fontSize: "2.5rem",
+                                backgroundColor: "rgba(255,255,255, .85)",
+                                borderRadius: ".5rem",
+                            }}
+                        />
+                    </a>
+                </div>
+              );
+            })}
         </>
     );
 };

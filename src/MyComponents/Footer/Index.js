@@ -27,7 +27,7 @@ const Footer = () => {
 						<div class="footer-col">
 							<h4>follow us</h4>
 							<div class="social-links">
-								<a href="https://www.facebook.com/tutorhere.help/" target="_blank"> <FaFacebookF /></a>
+								<a href="https://www.facebook.com/tutorhere.help/" target="_blank"> <FaFacebookF/></a>
 								<a href="https://twitter.com/tutor_here" target="_blank"><FaTwitter/></a>
 								<a href="https://www.linkedin.com/company/tutorhere/" target="_blank"><FaLinkedinIn/></a>
 								<a href="https://www.instagram.com/tutor.here/?hl=en" target="_blank"><FaInstagram/></a>

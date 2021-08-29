@@ -45,8 +45,8 @@
 .tutors-detail{
     /* border:  5px solid black; */
     width: 100%;
-    text-align: center;
-    align-content: center;
+    text-align: left;
+    align-content: left;
     justify-content: center;
     padding: 7% 4% 2% 2%;
 

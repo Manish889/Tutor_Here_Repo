@@ -1,7 +1,7 @@
 .program {
     &-section {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
         grid-gap: 5rem;
        }    
     display: flex;
@@ -10,8 +10,6 @@
     border-radius: .75rem;
     padding: .5rem;
     position: relative;
-    // height: 25rem;
-    // width: 50rem;
     overflow-x: hidden;
     &__hover {
         border-radius: .75rem;

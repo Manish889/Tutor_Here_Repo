@@ -215,36 +215,42 @@ export const DataTutors = [
   {
     name: "Dhruv Kaliraman",
     designation: "Tutor",
+    fullDesignation:"",
     image: "images/dhruv.png",
     linkedIn: 'http://www.linkedin.com/in/dhruv-kaliraman-09429b170'
   },
   {
     name: "Muskan Sachdeva",
     designation: "Tutor",
+    fullDesignation:"",
     image: "images/mushkan.png",
     linkedIn: 'https://www.linkedin.com/in/muskan-sachdeva-015779215'
   },
   {
     name: "Anupa Mukhopadhaya",
     designation: "Tutor",
+    fullDesignation:"",
     image: "images/anupa.png",
     linkedIn: 'https://www.linkedin.com/in/anupa-mukhopadhaya-b14369215'
   },
  {
     name: "Jini Elizaba Biju",
     designation: "Tutor",
+    fullDesignation:"I'm a Tutor with Tutor. I have given Demo 1 regarding the Topic Electricity which is a Part of Std X Physics CBSE. I have given suggestions by Soorya about what all changes to be made in the Presentation.",
     image: "images/Jini.png",
     linkedIn: 'https://www.linkedin.com/in/jini-biju-bb419a1b9'
   },
   {
     name: "Harsh Choudhary",
     designation: "Tutor",
+    fullDesignation:"",
     image: "images/Harsh Choudhary.png",
     linkedIn: 'https://www.linkedin.com/in/harshjme'
   },
   {
     name: "Bhoomika Dhauni",
     designation: "Tutor",
+    fullDesignation:"",
     image: "images/Bhoomika.png",
     linkedIn: ''
   },

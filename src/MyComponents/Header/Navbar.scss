@@ -35,7 +35,7 @@
         font-size: 1.8rem;
         cursor: pointer;
         font-family: 'Inter', sans-serif;
-        color: #207ac9;
+        color: var(--primary-color);
         transition: all .2s ease-out;
         &:hover {
             color: var(--primary-hover);
@@ -47,7 +47,7 @@
                 color: var(--color-white);
                 padding: 1rem;
                 &:hover {
-                    color: #207ac9;
+                    color: var(--primary-color);
                     border: 0;
                     background-color: var(--color-white);
                 }

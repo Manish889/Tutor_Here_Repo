@@ -1,0 +1,26 @@
+.careerpage {
+    padding: 3rem 10rem;
+    background-color: var(--primary-color);
+
+    &__box {
+        text-align: center;
+        color: var(--text-light);
+        width: 10rem;
+        padding: 1rem;
+        margin: 0 auto;
+        border-radius: .50rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        background-color: rgba($color: #000, $alpha: .3);
+        transition: color .2s ease-out;
+        &:hover {
+            color: var(--color-white);
+        }
+    }
+    &__heading {
+        font-size: 4rem;
+        margin: 2rem;
+        text-align: center;
+        color: var(--color-white);
+    }
+}

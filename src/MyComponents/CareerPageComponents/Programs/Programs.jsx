@@ -1,4 +1,4 @@
-import { careerData } from "../../Data/careerData";
+import { careerData } from "../../../Data/careerData";
 import "./Programs.scss";
 
 const Programs = () => {

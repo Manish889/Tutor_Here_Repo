@@ -1,6 +1,6 @@
 import Header from "../../MyComponents/Header/Navbar";
 import Footer from "../../MyComponents/Footer/Index";
-import Programs from "../../MyComponents/Programs/Programs";
+import Programs from "../../MyComponents/CareerPageComponents/Programs/Programs";
 
 import "./CareerPage.scss";
 

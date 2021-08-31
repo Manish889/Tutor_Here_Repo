@@ -82,7 +82,7 @@ export const DataTeamManagers = [
   },
 ];
 
-export const DataTechTeam = [
+export const DataTeamMembers = [
   {
     name: "Aravind",
     designation: "Hiring And Training Team",

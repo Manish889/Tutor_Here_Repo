@@ -3,7 +3,7 @@ import {
   DataFounder,
   DataCoo,
   DataTeamManagers,
-  DataTechTeam,
+  DataTeamMembers,
   DataTutors,
 } from "../../../Data/Data";
 import "./MembersGrid.scss";
@@ -80,7 +80,7 @@ const MembersGrid = () => {
           </AliceCarousel>
         </div>
 
-        {/* <h1 className="heading">Tech Team</h1>
+        <h1 className="heading">Tech Team</h1>
         <div className="intern-section">
           <AliceCarousel
             autoPlay={true}
@@ -89,7 +89,7 @@ const MembersGrid = () => {
             responsive={responsive}
             autoPlayStrategy="all"
           >
-            {DataTechTeam.map((n) => {
+            {DataTeamMembers.map((n) => {
               return (
                 <Members
                   imgsrc={n.image}
@@ -102,7 +102,7 @@ const MembersGrid = () => {
               );
             })}
           </AliceCarousel>
-        </div> */}
+        </div>
 
         <h1 className="heading">Tutors</h1>
         <div className="tutor-section">

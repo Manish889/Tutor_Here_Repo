@@ -1,12 +1,23 @@
-.profile{
+.profile-1{
 
     position: relative;
     text-align: center;
     display: block;
     margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 40px;
     display: flex;
+    border-radius: 10px;
+    
+}
+.profile-2{
+
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row-reverse;
     border-radius: 10px;
     
 }
@@ -44,11 +55,22 @@
 }
 .tutors-detail{
     /* border:  5px solid black; */
+    display: block;
+
     width: 100%;
     text-align: left;
     align-content: left;
     justify-content: center;
-    padding: 7% 4% 2% 2%;
+    padding: 2% 7% 2% 2%;
+
+}
+.tutors-detail-2{
+    /* border:  5px solid black; */
+    width: 100%;
+    text-align: right;
+    align-content: left;
+    justify-content: center;
+    padding: 2% 7% 2% 2%;
 
 }
 .profile__name{
@@ -58,14 +80,24 @@
 }
 .profile__designation{
     font-size: 1.5vw;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 .profile__fulldesignation{
     font-size: 1.5vw;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 @media (max-width:780px) {
-.profile{
+.profile-1{
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile-2{
     text-align: center;
     display: block;
     margin: auto;

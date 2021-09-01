@@ -82,7 +82,7 @@ export const DataTeamManagers = [
   },
 ];
 
-export const DataTechTeam = [
+export const DataTeamMembers = [
   {
     name: "Aravind",
     designation: "Hiring And Training Team",
@@ -212,7 +212,8 @@ export const DataTechTeam = [
 ];
 
 export const DataTutors = [
-  {
+  { 
+    id: 1,
     name: "Dhruv Kaliraman",
     designation: "Tutor",
     fullDesignation:"",
@@ -220,6 +221,7 @@ export const DataTutors = [
     linkedIn: 'http://www.linkedin.com/in/dhruv-kaliraman-09429b170'
   },
   {
+    id: 2,
     name: "Muskan Sachdeva",
     designation: "Tutor",
     fullDesignation:"",
@@ -227,6 +229,7 @@ export const DataTutors = [
     linkedIn: 'https://www.linkedin.com/in/muskan-sachdeva-015779215'
   },
   {
+    id: 3,
     name: "Anupa Mukhopadhaya",
     designation: "Tutor",
     fullDesignation:"",
@@ -234,6 +237,7 @@ export const DataTutors = [
     linkedIn: 'https://www.linkedin.com/in/anupa-mukhopadhaya-b14369215'
   },
  {
+  id: 4,
     name: "Jini Elizaba Biju",
     designation: "Tutor",
     fullDesignation:"I'm a Tutor with Tutor. I have given Demo 1 regarding the Topic Electricity which is a Part of Std X Physics CBSE. I have given suggestions by Soorya about what all changes to be made in the Presentation.",
@@ -241,6 +245,7 @@ export const DataTutors = [
     linkedIn: 'https://www.linkedin.com/in/jini-biju-bb419a1b9'
   },
   {
+    id: 5,
     name: "Harsh Choudhary",
     designation: "Tutor",
     fullDesignation:"",
@@ -248,6 +253,7 @@ export const DataTutors = [
     linkedIn: 'https://www.linkedin.com/in/harshjme'
   },
   {
+    id: 6,
     name: "Bhoomika Dhauni",
     designation: "Tutor",
     fullDesignation:"",

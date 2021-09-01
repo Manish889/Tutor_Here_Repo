@@ -1,6 +1,6 @@
 import AliceCarousel from "react-alice-carousel";
-import Members from "../Members/Members";
-import { DataArtist } from "../../Routes/Learners/Artist";
+import Members from "../../AboutPageComponents/Members/Members";
+import { DataArtist } from "../../../Routes/Learners/Artist";
 import "./TheArtist.scss";
 const TheArtist = () => {
   const responsive = {

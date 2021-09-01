@@ -5,7 +5,7 @@ import {
   DataTeamManagers,
   DataTechTeam,
   DataTutors,
-} from "../../Data/Data";
+} from "../../../Data/Data";
 import "./MembersGrid.scss";
 import "react-alice-carousel/lib/alice-carousel.css";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";

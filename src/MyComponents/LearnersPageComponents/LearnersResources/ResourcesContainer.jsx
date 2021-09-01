@@ -1,5 +1,5 @@
 import Resources from "./Resources";
-import { resources } from "../../Routes/Learners/Artist";
+import { resources } from "../../../Routes/Learners/Artist";
 
 const ResourcesConatiner = () => {
   return (

@@ -1,4 +1,4 @@
-import MembersGrid from "../../MyComponents/MembersGrid/MembersGrid";
+import MembersGrid from "../../MyComponents/AboutPageComponents/MembersGrid/MembersGrid";
 import BgImgText from "../../MyComponents/BgImgText/BgImgText";
 import Header from '../../MyComponents/Header/Navbar';
 import Footer from "../../MyComponents/Footer/Index";

@@ -5,6 +5,11 @@
     margin: 3rem auto;
     text-align: center;
     color: #0866E4;
+    @media screen and (max-width: 768px) {
+        & {
+            font-size: 4rem;
+        }
+      }
 }
 
 .people-grid {

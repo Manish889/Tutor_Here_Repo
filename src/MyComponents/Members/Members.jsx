@@ -9,7 +9,7 @@ const Members = (props) => {
           <img src={props.imgsrc} alt="" />
           <div className="people__hover-text">
             <p className="people__full-designation">{props.fullDesignation}</p>
-            <a className="people__icon" href={props.linkedIn} target="_blank">
+            <a  href={props.linkedIn} target="_blank">
               <LinkedInIcon
                 style={{
                   color: "blue",
@@ -17,6 +17,7 @@ const Members = (props) => {
                   backgroundColor: "rgba(255,255,255, .85)",
                   borderRadius: ".5rem",
                 }}
+                className='people__icon'
               />
             </a>
           </div>

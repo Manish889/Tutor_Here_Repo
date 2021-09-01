@@ -5,8 +5,11 @@ const BgImgText = (props) => {
     <>
       <div className="bgImg">
         <img src={bgImg} alt="" />
-        <span>{props.toptext}</span>
+        <div className="bgImg__text">
+        <span>{props.toptext}</span> <br />
         <span>{props.bottomtext}</span>
+        </div>
+       
       </div>
     </>
   );
